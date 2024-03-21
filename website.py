@@ -1,10 +1,8 @@
 import hashlib
 import streamlit as st
-import sys
-sys.path.insert(1, "C:/Users/hp/AppData/Local/Programs/Python/Python311/Lib/site-packages/streamlit_option_menu")
-from streamlit_option_menu import option_menu
 import re
 from pymongo import MongoClient
+from streamlit_option_menu import option_menu
 import random
 import smtplib
 from email.mime.text import MIMEText
