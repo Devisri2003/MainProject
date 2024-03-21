@@ -15,7 +15,7 @@ import json
 
 
 #Connect to MongoDB
-mongo_uri = "mongodb://127.0.0.1:27015/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.6"
+mongo_uri = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.6"
 client=MongoClient(mongo_uri)
 db=client['MainProject']
 user_collection=db['UserCredentials']
