@@ -3,4 +3,4 @@ pymongo
 pandas
 numpy
 streamlit_option_menu
-stramlit_lottie
+streamlit_lottie
